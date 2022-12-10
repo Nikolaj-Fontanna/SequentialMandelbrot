@@ -12,9 +12,9 @@ public class ColorMandelbrot {
         double[] Xarr =  {-2.1, 0.6};
         double[] Yarr =  {-1.2, 1.2};
 
-        int size = 512;
+        int size = 1024;
 
-        BufferedImage img = Mandelbrot.generateMandelbrotImage(size,size, Xarr, Yarr, 100, null);
+        BufferedImage img = Mandelbrot.generateMandelbrotImage(size,size, Xarr, Yarr, 100, "mandelbrot_color.jpg");
 
         JFrame frame = new JFrame();
         frame.getContentPane().setLayout(new FlowLayout());
