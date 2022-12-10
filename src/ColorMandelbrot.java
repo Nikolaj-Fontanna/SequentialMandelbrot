@@ -14,7 +14,7 @@ public class ColorMandelbrot {
 
         int size = 1024;
 
-        BufferedImage img = Mandelbrot.generateMandelbrotImage(size,size, Xarr, Yarr, 100, "mandelbrot_color.jpg");
+        BufferedImage img = Mandelbrot.generateMandelbrotImage(size,size, Xarr, Yarr, 100, "mandelbrot_color");
 
         JFrame frame = new JFrame();
         frame.getContentPane().setLayout(new FlowLayout());
