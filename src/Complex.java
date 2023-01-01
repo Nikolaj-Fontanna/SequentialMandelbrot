@@ -1,4 +1,7 @@
 public class Complex {
+
+    //KLASA Z LICZBAMI ZESPOLONYMI
+
     private double real;
     private double imaginary;
 
