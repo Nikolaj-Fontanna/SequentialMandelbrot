@@ -1,3 +1,5 @@
+package Mandelbrot;
+
 public class Complex {
 
     //KLASA Z LICZBAMI ZESPOLONYMI
